@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Main Entrance",
+        "project_id": "location-1",
+        "type": "access",
+        "description": "Primary pedestrian entrance with security checkpoint",
+        "status": "planned",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9876, 40.7564]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community Center",
+        "project_id": "location-1", 
+        "type": "facility",
+        "description": "Multi-purpose community facility with meeting rooms and event space",
+        "status": "under_construction",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9851, 40.7614]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parking Garage Entrance",
+        "project_id": "location-1",
+        "type": "access",
+        "description": "Underground parking facility entrance",
+        "status": "planned",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9826, 40.7539]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Transit Station",
+        "project_id": "location-1",
+        "type": "facility",
+        "description": "Bus rapid transit station with bike sharing",
+        "status": "completed",
+        "capacity": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9901, 40.7614]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Emergency Services",
+        "project_id": "location-1",
+        "type": "service", 
+        "description": "Fire and medical emergency response station",
+        "status": "planned",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9876, 40.7589]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Central Plaza",
+        "project_id": "location-1",
+        "type": "landmark",
+        "description": "Main public gathering space with fountain and art installations",
+        "status": "under_construction", 
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9876, 40.7614]
+      }
+    }
+  ]
+}

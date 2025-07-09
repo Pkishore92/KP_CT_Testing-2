@@ -1,0 +1,88 @@
+{
+  "defaultView": {
+    "center": [39.8283, -98.5795],
+    "zoom": 4
+  },
+  "layerTypes": {
+    "polygons": {
+      "style": {
+        "color": "#3b82f6",
+        "weight": 2,
+        "opacity": 0.8,
+        "fillColor": "#3b82f6",
+        "fillOpacity": 0.2
+      },
+      "hover": {
+        "weight": 3,
+        "opacity": 1,
+        "fillOpacity": 0.4
+      }
+    },
+    "points": {
+      "style": {
+        "radius": 6,
+        "fillColor": "#ef4444", 
+        "color": "#dc2626",
+        "weight": 2,
+        "opacity": 1,
+        "fillOpacity": 0.8
+      },
+      "cluster": true,
+      "clusterRadius": 50
+    }
+  },
+  "categories": {
+    "development": {
+      "color": "#3b82f6",
+      "icon": "building",
+      "description": "Development and construction projects"
+    },
+    "recreation": {
+      "color": "#10b981",
+      "icon": "tree",
+      "description": "Parks, recreation and environmental projects"
+    },
+    "industrial": {
+      "color": "#f59e0b",
+      "icon": "factory",
+      "description": "Industrial and manufacturing facilities"
+    },
+    "education": {
+      "color": "#8b5cf6",
+      "icon": "school",
+      "description": "Educational institutions and research"
+    },
+    "preservation": {
+      "color": "#ef4444",
+      "icon": "monument",
+      "description": "Historic preservation and cultural sites"
+    },
+    "transportation": {
+      "color": "#06b6d4",
+      "icon": "bus",
+      "description": "Transit and transportation infrastructure"
+    }
+  },
+  "pointTypes": {
+    "facility": {
+      "color": "#ef4444",
+      "icon": "building",
+      "size": "medium"
+    },
+    "access": {
+      "color": "#3b82f6", 
+      "icon": "door",
+      "size": "small"
+    },
+    "service": {
+      "color": "#10b981",
+      "icon": "gear",
+      "size": "medium"
+    },
+    "landmark": {
+      "color": "#f59e0b",
+      "icon": "star",
+      "size": "large"
+    }
+  }
+}

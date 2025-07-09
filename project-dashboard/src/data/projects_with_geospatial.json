@@ -1,0 +1,193 @@
+[
+  {
+    "id": "location-1",
+    "name": "Downtown Development Hub",
+    "description": "Mixed-use development project with residential towers, commercial spaces, and green infrastructure",
+    "location": {
+      "lat": 40.7589,
+      "lng": -73.9851,
+      "address": "Manhattan, NY",
+      "bounds": {
+        "north": 40.7639,
+        "south": 40.7539,
+        "east": -73.9801,
+        "west": -73.9901
+      }
+    },
+    "geospatial": {
+      "polygon": "/src/data/geospatial/polygons/location1_boundary.geojson",
+      "points": "/src/data/geospatial/points/location1_facilities.geojson",
+      "layers": ["boundary", "facilities", "zones"]
+    },
+    "status": "Active",
+    "category": "Development",
+    "budget": 2500000,
+    "completion": 65,
+    "startDate": "2024-01-15",
+    "endDate": "2025-06-30",
+    "teamLead": "Sarah Chen",
+    "teamSize": 12,
+    "stakeholders": ["City Planning", "Development Corp"],
+    "tags": ["development", "mixed-use", "urban"],
+    "zoning": {
+      "residential": "40%",
+      "commercial": "35%",
+      "green_space": "25%"
+    }
+  },
+  {
+    "id": "location-2", 
+    "name": "Waterfront Recreation Area",
+    "description": "Coastal restoration and public recreation space with marina and eco-trails",
+    "location": {
+      "lat": 25.7617,
+      "lng": -80.1918,
+      "address": "Miami, FL",
+      "bounds": {
+        "north": 25.7667,
+        "south": 25.7567,
+        "east": -80.1868,
+        "west": -80.1968
+      }
+    },
+    "geospatial": {
+      "polygon": "/src/data/geospatial/polygons/location2_boundary.geojson",
+      "points": "/src/data/geospatial/points/location2_facilities.geojson",
+      "layers": ["shoreline", "marina", "trails"]
+    },
+    "status": "Planning",
+    "category": "Recreation",
+    "budget": 1800000,
+    "completion": 25,
+    "startDate": "2024-03-01",
+    "endDate": "2025-12-31",
+    "teamLead": "Elena Vasquez",
+    "teamSize": 8,
+    "stakeholders": ["Parks Department", "Coastal Conservation"],
+    "tags": ["recreation", "coastal", "eco-trails", "marina"]
+  },
+  {
+    "id": "location-3",
+    "name": "Industrial Innovation Park",
+    "description": "Technology and manufacturing hub with smart infrastructure and logistics center",
+    "location": {
+      "lat": 32.7767,
+      "lng": -96.7970,
+      "address": "Dallas, TX", 
+      "bounds": {
+        "north": 32.7817,
+        "south": 32.7717,
+        "east": -96.7920,
+        "west": -96.8020
+      }
+    },
+    "geospatial": {
+      "polygon": "/src/data/geospatial/polygons/location3_boundary.geojson",
+      "points": "/src/data/geospatial/points/location3_facilities.geojson",
+      "layers": ["industrial", "logistics", "infrastructure"]
+    },
+    "status": "Active",
+    "category": "Industrial",
+    "budget": 4200000,
+    "completion": 78,
+    "startDate": "2023-06-15",
+    "endDate": "2024-10-30",
+    "teamLead": "Marcus Johnson",
+    "teamSize": 20,
+    "stakeholders": ["Economic Development", "Tech Consortium"],
+    "tags": ["technology", "manufacturing", "logistics", "innovation"]
+  },
+  {
+    "id": "location-4",
+    "name": "University Campus Expansion",
+    "description": "Academic facilities expansion with student housing, research labs, and sustainable energy systems",
+    "location": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "address": "Chicago, IL",
+      "bounds": {
+        "north": 41.8831,
+        "south": 41.8731,
+        "east": -87.6248,
+        "west": -87.6348
+      }
+    },
+    "geospatial": {
+      "polygon": "/src/data/geospatial/polygons/location4_boundary.geojson",
+      "points": "/src/data/geospatial/points/location4_facilities.geojson",
+      "layers": ["academic", "housing", "research"]
+    },
+    "status": "Active",
+    "category": "Education",
+    "budget": 3100000,
+    "completion": 45,
+    "startDate": "2024-01-10",
+    "endDate": "2025-08-15",
+    "teamLead": "Dr. Amanda Rodriguez",
+    "teamSize": 15,
+    "stakeholders": ["University Board", "Education Foundation"],
+    "tags": ["education", "research", "sustainability", "housing"]
+  },
+  {
+    "id": "location-5",
+    "name": "Historic District Revitalization",
+    "description": "Preservation and modernization of historic downtown area with cultural venues and business districts",
+    "location": {
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "address": "Denver, CO",
+      "bounds": {
+        "north": 39.7442,
+        "south": 39.7342,
+        "east": -104.9853,
+        "west": -104.9953
+      }
+    },
+    "geospatial": {
+      "polygon": "/src/data/geospatial/polygons/location5_boundary.geojson",
+      "points": "/src/data/geospatial/points/location5_facilities.geojson",
+      "layers": ["historic", "cultural", "business"]
+    },
+    "status": "Completed",
+    "category": "Preservation",
+    "budget": 950000,
+    "completion": 100,
+    "startDate": "2022-09-01",
+    "endDate": "2023-12-15",
+    "teamLead": "Kevin Park",
+    "teamSize": 6,
+    "stakeholders": ["Historic Society", "Chamber of Commerce"],
+    "tags": ["historic", "cultural", "preservation", "business"]
+  },
+  {
+    "id": "location-6",
+    "name": "Regional Transit Hub",
+    "description": "Multi-modal transportation center with bus rapid transit, bike sharing, and electric vehicle charging",
+    "location": {
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "address": "Seattle, WA",
+      "bounds": {
+        "north": 47.6112,
+        "south": 47.6012,
+        "east": -122.3271,
+        "west": -122.3371
+      }
+    },
+    "geospatial": {
+      "polygon": "/src/data/geospatial/polygons/location6_boundary.geojson",
+      "points": "/src/data/geospatial/points/location6_facilities.geojson",
+      "layers": ["transit", "parking", "services"]
+    },
+    "status": "Planning",
+    "category": "Transportation",
+    "budget": 5800000,
+    "completion": 15,
+    "startDate": "2024-05-01",
+    "endDate": "2026-03-31",
+    "teamLead": "Lisa Thompson",
+    "teamSize": 25,
+    "stakeholders": ["Metro Transit", "Clean Energy Initiative"],
+    "tags": ["transit", "sustainable", "multi-modal", "electric"]
+  }
+]

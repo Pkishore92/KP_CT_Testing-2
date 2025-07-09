@@ -1,0 +1,162 @@
+[
+  {
+    "id": "proj-001",
+    "name": "Solar Farm Alpha",
+    "description": "Large-scale solar energy project providing clean power to 10,000 homes",
+    "location": {
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "address": "San Francisco, CA"
+    },
+    "status": "Active",
+    "category": "Renewable Energy",
+    "budget": 2500000,
+    "completion": 85,
+    "startDate": "2023-01-15",
+    "endDate": "2024-06-30",
+    "teamLead": "Sarah Chen",
+    "teamSize": 12,
+    "stakeholders": ["GreenTech Corp", "City of San Francisco"],
+    "tags": ["solar", "renewable", "clean-energy"]
+  },
+  {
+    "id": "proj-002", 
+    "name": "Urban Garden Network",
+    "description": "Community garden initiative connecting urban neighborhoods",
+    "location": {
+      "lat": 40.7128,
+      "lng": -74.0060,
+      "address": "New York, NY"
+    },
+    "status": "Planning",
+    "category": "Community Development",
+    "budget": 150000,
+    "completion": 25,
+    "startDate": "2024-03-01",
+    "endDate": "2024-12-15",
+    "teamLead": "Marcus Johnson",
+    "teamSize": 8,
+    "stakeholders": ["NYC Parks", "Green Communities"],
+    "tags": ["community", "sustainability", "urban"]
+  },
+  {
+    "id": "proj-003",
+    "name": "Smart Water Management",
+    "description": "IoT-based water conservation system for agricultural areas",
+    "location": {
+      "lat": 32.7767,
+      "lng": -96.7970,
+      "address": "Dallas, TX"
+    },
+    "status": "Active",
+    "category": "Technology",
+    "budget": 750000,
+    "completion": 60,
+    "startDate": "2023-08-20",
+    "endDate": "2024-08-20",
+    "teamLead": "Dr. Amanda Rodriguez",
+    "teamSize": 15,
+    "stakeholders": ["Texas Agriculture Dept", "WaterTech Solutions"],
+    "tags": ["iot", "water", "agriculture", "smart-tech"]
+  },
+  {
+    "id": "proj-004",
+    "name": "Coastal Restoration Initiative",
+    "description": "Mangrove planting and coastal ecosystem restoration project",
+    "location": {
+      "lat": 25.7617,
+      "lng": -80.1918,
+      "address": "Miami, FL"
+    },
+    "status": "Completed",
+    "category": "Environmental",
+    "budget": 450000,
+    "completion": 100,
+    "startDate": "2022-06-01",
+    "endDate": "2023-11-30",
+    "teamLead": "Elena Vasquez",
+    "teamSize": 10,
+    "stakeholders": ["Florida DEP", "Coastal Conservation Fund"],
+    "tags": ["restoration", "coastal", "mangrove", "ecosystem"]
+  },
+  {
+    "id": "proj-005",
+    "name": "Digital Learning Hub",
+    "description": "Technology education center for underserved communities",
+    "location": {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "address": "Chicago, IL"
+    },
+    "status": "Active",
+    "category": "Education",
+    "budget": 320000,
+    "completion": 45,
+    "startDate": "2024-01-10",
+    "endDate": "2024-10-30",
+    "teamLead": "Kevin Park",
+    "teamSize": 6,
+    "stakeholders": ["Chicago Public Schools", "TechForGood Foundation"],
+    "tags": ["education", "technology", "digital-literacy", "community"]
+  },
+  {
+    "id": "proj-006",
+    "name": "Mountain Trail Restoration",
+    "description": "Hiking trail maintenance and wildlife habitat protection",
+    "location": {
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "address": "Denver, CO"
+    },
+    "status": "Planning",
+    "category": "Conservation",
+    "budget": 180000,
+    "completion": 15,
+    "startDate": "2024-05-01",
+    "endDate": "2025-04-30",
+    "teamLead": "Jake Morrison",
+    "teamSize": 7,
+    "stakeholders": ["Colorado Parks", "Mountain Conservation Society"],
+    "tags": ["trails", "conservation", "wildlife", "recreation"]
+  },
+  {
+    "id": "proj-007",
+    "name": "Clean Transportation Fleet",
+    "description": "Electric vehicle fleet for city public transportation",
+    "location": {
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "address": "Seattle, WA"
+    },
+    "status": "Active",
+    "category": "Transportation",
+    "budget": 1800000,
+    "completion": 70,
+    "startDate": "2023-04-15",
+    "endDate": "2024-12-31",
+    "teamLead": "Lisa Thompson",
+    "teamSize": 20,
+    "stakeholders": ["Seattle Metro", "CleanTech Motors"],
+    "tags": ["electric", "transportation", "clean-energy", "public-transit"]
+  },
+  {
+    "id": "proj-008",
+    "name": "Waste-to-Energy Plant",
+    "description": "Converting municipal waste into renewable energy",
+    "location": {
+      "lat": 33.4484,
+      "lng": -112.0740,
+      "address": "Phoenix, AZ"
+    },
+    "status": "Planning",
+    "category": "Renewable Energy",
+    "budget": 5200000,
+    "completion": 35,
+    "startDate": "2024-02-01",
+    "endDate": "2026-01-31",
+    "teamLead": "Robert Kim",
+    "teamSize": 25,
+    "stakeholders": ["City of Phoenix", "WasteEnergy Corp"],
+    "tags": ["waste-management", "renewable", "energy", "municipal"]
+  }
+]

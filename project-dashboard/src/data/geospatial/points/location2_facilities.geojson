@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marina Office",
+        "project_id": "location-2",
+        "type": "facility",
+        "description": "Harbor master office and visitor services",
+        "status": "planned",
+        "capacity": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1943, 25.7592]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boat Launch Ramp",
+        "project_id": "location-2",
+        "type": "access",
+        "description": "Public boat launch and trailer parking",
+        "status": "planned",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1918, 25.7575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Visitor Center",
+        "project_id": "location-2",
+        "type": "facility",
+        "description": "Educational center with exhibits on coastal ecology",
+        "status": "planning",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1893, 25.7642]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Observation Deck",
+        "project_id": "location-2",
+        "type": "landmark",
+        "description": "Elevated viewing platform overlooking the bay",
+        "status": "planned",
+        "capacity": 75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1918, 25.7650]
+      }
+    }
+  ]
+}

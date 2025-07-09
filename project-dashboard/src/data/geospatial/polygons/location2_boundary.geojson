@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marina Development Area",
+        "project_id": "location-2",
+        "zone_type": "marina",
+        "area_sqft": 200000,
+        "water_depth": "15 feet",
+        "description": "Marina with boat slips and waterfront dining"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-80.1968, 25.7567],
+          [-80.1918, 25.7567],
+          [-80.1918, 25.7617],
+          [-80.1968, 25.7617],
+          [-80.1968, 25.7567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eco-Trail Network",
+        "project_id": "location-2",
+        "zone_type": "trails",
+        "area_sqft": 150000,
+        "trail_length": "3.2 miles",
+        "description": "Boardwalk and nature trails through mangrove restoration area"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-80.1918, 25.7617],
+          [-80.1868, 25.7617],
+          [-80.1868, 25.7667],
+          [-80.1918, 25.7667],
+          [-80.1918, 25.7617]
+        ]]
+      }
+    }
+  ]
+}

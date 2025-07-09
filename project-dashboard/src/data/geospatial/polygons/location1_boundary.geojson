@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Downtown Development Zone A",
+        "project_id": "location-1",
+        "zone_type": "residential",
+        "area_sqft": 125000,
+        "max_height": "25 stories",
+        "description": "Primary residential tower zone with mixed-use ground floor"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-73.9901, 40.7539],
+          [-73.9851, 40.7539],
+          [-73.9851, 40.7589],
+          [-73.9901, 40.7589],
+          [-73.9901, 40.7539]
+        ]]
+      }
+    },
+    {
+      "type": "Feature", 
+      "properties": {
+        "name": "Downtown Development Zone B",
+        "project_id": "location-1",
+        "zone_type": "commercial",
+        "area_sqft": 85000,
+        "max_height": "15 stories",
+        "description": "Commercial and retail space with office towers"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-73.9851, 40.7589],
+          [-73.9801, 40.7589], 
+          [-73.9801, 40.7639],
+          [-73.9851, 40.7639],
+          [-73.9851, 40.7589]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Downtown Development Zone C",
+        "project_id": "location-1",
+        "zone_type": "green_space",
+        "area_sqft": 45000,
+        "max_height": "N/A",
+        "description": "Central park and community green space"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-73.9901, 40.7589],
+          [-73.9851, 40.7589],
+          [-73.9851, 40.7639],
+          [-73.9901, 40.7639],
+          [-73.9901, 40.7589]
+        ]]
+      }
+    }
+  ]
+}
