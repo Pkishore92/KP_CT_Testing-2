@@ -4,10 +4,19 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/KP_CT_Testing-2/',  // This matches your repository name
+  base: '/KP_CT_Testing-2/',
   resolve: {
     alias: {
       "@": resolve(__dirname, "./src"),
+    },
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
     },
   },
 })
