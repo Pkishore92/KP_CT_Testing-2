@@ -1,9 +1,10 @@
-import { Hono } from "hono";
-import { serveStatic } from "hono/deno";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.tsx'
+import './index.css'
 
-const app = new Hono();
-
-app.use("*", serveStatic({ root: "./dist" }));
-
-// @ts-expect-error - Deno.serve used for deployment
-Deno.serve(app.fetch);
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
